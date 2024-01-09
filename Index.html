@@ -11,7 +11,7 @@
     <div class="overflow-x-hidden relative w-full">
         <!-- nav bar -->
         <nav class="bg-deepBlue">
-            <div class="relative w-[1080px] mx-auto flex  items-center justify-between">
+            <div class="relative w-[1080px] mx-auto flex flex-col md:flex-row items-center justify-between">
 
                 <!-- logo -->
 
@@ -19,7 +19,7 @@
                     <img src="./images/logo.svg" width="125px" height="30px"/>
                 </a>
             
-                <ul class="flex gap-6">
+                <ul class="flex flex-col md:flex-row gap-6">
                     <li class="text-white font-mullish py-7 hover:text-lightBlue cursor-pointer
                     transition-all duration-200 relative group">
                     <a href="#">Payments</a>
@@ -100,7 +100,15 @@
                         />
                     </button>
 
+                    
+
                 </div>
+                <div class="burger absolute place-self-stretch my-auto md:hidden">
+                    <div class="line w-6 h-1 bg-white my-1"></div>
+                    <div class="line w-6 h-1 bg-white my-1"></div>
+                    <div class="line w-6 h-1 bg-white my-1"></div>
+                 </div>
+                
             </div>
 
         
