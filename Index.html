@@ -11,7 +11,7 @@
     <div class="overflow-x-hidden relative w-full">
         <!-- nav bar -->
         <nav class="bg-deepBlue">
-            <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+            <div class="relative w-[1080px] mx-auto flex  items-center justify-between">
 
                 <!-- logo -->
 
@@ -108,7 +108,7 @@
 
         <!-- hero section -->
         <section class="required: bg-deepBlue">
-        <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto">
+        <div class="w-10/12 max-w-[1080px]  flex flex-col lg:flex-row justify-between items-center mx-auto">
             <!-- left part -->
             <div class="space-y-4">
                 <h1 class="font-mullish text-white font-bold text-[40px] leading-[1.2]">Power your finance, grow your business</h1>
@@ -145,7 +145,9 @@
             <div class="relative w-11/12 max-w-[1080px] mx-auto pt-4">
 
                 <!-- heading -->
-                <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold">Accept Payments with Razorpay Payment Suite
+                <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold hidden md:block">Accept Payments with Razorpay Payment Suite
+                </h2>
+                <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold  md:hidden">Explore Razorpay Payment Suite
                 </h2>
                 <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
 
@@ -189,9 +191,9 @@
                             
                         </ul>
                         <!-- for button and hyperlink -->
-                        <div class="flex flex-row items-center space-x-4">
+                        <div class="flex flex-col-reverse md:flex-row items-center space-x-4">
                             <button
-                            class="bg-lightBlue text-white rounded-md font-mullish font-bold
+                            class="bg-lightBlue w-full md:w-fit text-white rounded-md font-mullish font-bold
                             hover:bg-lightBlue500 transition-all duration-200 py-3 px-3">Sign Up Now</button>
                             <!-- heyperlink tag -->
                             <div class="flex items-center cursor-pointer group">
@@ -204,10 +206,10 @@
                         </div>    
                         </div>
                         <img src="./images/payment-suite.png"
-                        class="max-w-[600px] absolute bottom-0 right-0"   alt="">
+                        class="max-w-[600px] absolute bottom-0 right-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block"   alt="">
                         
                     </div>
-                    <div class="w-full grid grid-cols-3 gap-4 mt-10">
+                    <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
                         <!-- Box 1 -->
                         <div class="w-full min-h-[15rem] relative cursor-pointer">
                             <img src="./images/payment-link-icon.svg" alt=""
@@ -580,7 +582,7 @@
                             <h3 class="font-mullish text-[28px] text-white leading-10 font-bold max-w-[500px]">Manage your company’s finances and supercharge your business banking with
                                 <img
                                 loading="lazy"
-                                class="inline"
+                                class="inline "
                                 width="168px"
                                 height="32px" src="./images/razorpayX.svg" alt="">
                                
@@ -614,9 +616,9 @@
                                 
                             </ul>
                             <!-- for button and hyperlink -->
-                            <div class="flex flex-row items-center space-x-4">
+                            <div class="flex flex-col-reverse md:flex-row items-center space-x-4">
                                 <button
-                                class="bg-lightBlue relative flex items-center justify-center py-[14px] px-[18px] md:pr-[90px] text-white rounded-md font-mullish font-bold
+                                class="bg-lightBlue w-full md:w-fit relative flex items-center justify-center py-[14px] px-[18px] md:pr-[90px] text-white rounded-md font-mullish font-bold
                                 hover:bg-lightBlue500 transition-all duration-200">Sign Up Now
                                 <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] flex justify-center items-center">
                                     <svg
@@ -642,11 +644,11 @@
                             </div>    
                             </div>
                             <img src="./images/payment-suite.png"
-                            class="max-w-[600px] absolute bottom-0 right-0"   alt="">
+                            class="max-w-[600px] absolute bottom-0 right-0 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block"   alt="">
                             
                         </div>
                     <!-- card box -->
-                    <div class="grid grid-cols-3 w-full gap-4 my-14 ">
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-4 my-14 ">
                         <!-- box1 -->
                         <div class="w-full min-h-[15rem] relative cursor-pointer">
                             <img src="./images/smart-collect-icon.svg" alt=""
@@ -820,7 +822,7 @@
                         </div>
                     </div>
                     <!-- demo box -->
-                    <div class="w-full flex flex-row items-center justify-between border-slate-100
+                    <div class="w-full flexflex-row items-center justify-between border-slate-100
                         gap-y-6 relative rounded-md p-8">
                         <p class="font-mullish text-white text-xl">Check out the live demo to learn how RazorpayX works.
                             <span class="font-mullish font-extrabold text-white">No sign-up required!</span>
